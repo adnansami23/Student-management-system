@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.app-title{
+  margin-bottom: 24px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  
+}
+.form input{
+  padding: 10px;
+  font-size: 16px;
+  border:1px solid #cccc ;
+  border-radius: 5px;
+}
+.form button{
+  position: relative;
+  background:rgb(81, 81, 228);
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  transition: 0.5s;
+  border-radius: 80px;
+
+}
+form button:hover{
+
+  background: var(--clr);
+  letter-spacing: 0.25em;
+  
+ }
+.students-list{
+  display: flex;
+
+  gap: 20px;
+} 
+.student{
+  letter-spacing: 0.25em;
+  
+  background: var(--clr);
+  position: relative;
+  background:rgb(194, 194, 218);
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  transition: 0.5s
+}
